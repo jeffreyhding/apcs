@@ -1,5 +1,10 @@
 package textExcel;
 
+/** 
+ * @author Jeffrey Ding
+ * @version 02/23/2023
+ */ 
+
 public interface Grid 
 {
 	String processCommand(String command); // processes a user command, returns string to display, must be called in loop from main
