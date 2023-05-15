@@ -1,7 +1,8 @@
 package textExcel;
 
 //*******************************************************
-//DO NOT MODIFY THIS FILE!!!
+// DO NOT MODIFY THIS FILE
+// tests the function of the textExcel classes
 //*******************************************************
 
 import static org.junit.Assert.*;
