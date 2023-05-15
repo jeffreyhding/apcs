@@ -1,12 +1,14 @@
 package textExcel;
 
-//*******************************************************
-//DO NOT MODIFY THIS FILE!!!
-//*******************************************************
+/** 
+ * @author Jeffrey Ding
+ * @version 02/23/2023
+ */ 
 
 public interface Location
 {
-	// represents a location like B6, must be implemented by your SpreadsheetLocation class
+	// stores a location in letter/number format (ex: B6)
+	// implemented by the SpreadsheetLocation class
 	int getRow(); // gets row of this location
 	int getCol(); // gets column of this location
 }
